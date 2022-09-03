@@ -3,7 +3,7 @@ import './App.css';
 
 import React, { useState } from 'react'
 
-import NavBar from './components/NavBar';
+import NavBar1 from './components/NavBar1';
 import News from './components/News';
 import Home from './components/Home';
 // import Footer from './components/Footer';
@@ -25,9 +25,9 @@ const App = ()=> {
   const [progress, setProgress] = useState(0)
 
     return (
-      <div>
+      <div className="bg-dark">
         <Router>
-        <NavBar/>
+        <NavBar1/>
         <LoadingBar
         height={3}
         color='#f11946'

@@ -3,7 +3,7 @@ import SocialFollow from './SocialFollow'
 
 const footer = ()=> {
   return (
-     <div className="container-fluid" style={{backgroundColor: '#4c4c4c', color: 'white'}}>
+     <div className="container-fluid bg-dark" style={{backgroundColor: '#4c4c4c', color: 'white'}}>
          <div className="row mt-3">
              <div className="col-lg-4 col-sm-4 mt-4 col-md-4 col-12 col-xs-4 mx-auto">
                    <h3 className="text-center">Explor the BBC</h3>

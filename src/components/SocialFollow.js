@@ -2,8 +2,8 @@ import React from 'react'
 import './Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faYoutube,
-    faFacebook,
+    faGithub,
+    faLinkedin,
     faTwitter,
     faInstagram
 } from "@fortawesome/free-brands-svg-icons";
@@ -14,19 +14,19 @@ const SocialFollow = () => {
                 <h3 className="text-center">Social Follow</h3>
             </div>
             <div className="text-center mt-4">
-            <a href="https://www.youtube.com/c/jamesqquick"
-                className="youtube social">
-                <FontAwesomeIcon icon={faYoutube} size="4x" />
+            <a href="https://github.com/MONU8OO8" 
+                className="Github social" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub} size="4x" />
             </a>
-            <a href="https://www.facebook.com/learnbuildteach/"
-                className="facebook social">
-                <FontAwesomeIcon icon={faFacebook} size="4x" />
+            <a href="https://www.linkedin.com/in/monu-kumar-3364a5209/"
+                className="linkedin social" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} size="4x" />
             </a>
-            <a href="https://www.twitter.com/jamesqquick" className="twitter social">
+            <a href="https://www.linkedin.com/in/monu-kumar-3364a5209/" className="twitter social" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faTwitter} size="4x" />
             </a>
-            <a href="https://www.instagram.com/learnbuildteach"
-                className="instagram social">
+            <a href="https://www.linkedin.com/in/monu-kumar-3364a5209/"
+                className="instagram social" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faInstagram} size="4x" />
             </a>
             </div>
