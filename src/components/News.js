@@ -54,7 +54,7 @@ const News = (props) => {
         
         props.setProgress(10);
 
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${process.env.REACT_APP_NEWS_API}&page=${page}&pageSize=${props.pageSize}`;
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${process.env.newsapi}&page=${page}&pageSize=${props.pageSize}`;
         // const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=e1b98c13d4214f709620bd1698172044&page=${page}&pageSize=${props.pageSize}`;
 
         // if you want to pass apiKey from enviroment varialble so that no one can see your api key then you have to pass apiKey through props this.props.apiKey
@@ -133,7 +133,7 @@ const News = (props) => {
         // this fetchMoreData function i copy form react infinitscroller website
         // this.setState({ page: this.state.page + 1 })
 
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${process.env.REACT_APP_NEWS_API}&page=${page+1}&pageSize=${props.pageSize}`;
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${process.env.newsapi}&page=${page+1}&pageSize=${props.pageSize}`;
         // const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=e1b98c13d4214f709620bd1698172044&page=${page}&pageSize=${props.pageSize}`;
         setPage(page+1)
         
